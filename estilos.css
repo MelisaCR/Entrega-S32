@@ -1,0 +1,185 @@
+body{
+	background: url(fondo.jpg);
+}
+
+.cuadro{
+	margin-top: 2%;
+}
+
+.logo{
+	position: absolute;
+	margin-top: -1%;
+	width: 500px;
+	height: 170px;
+	margin-left: -49.3%;
+}
+
+.imagen{
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 40%;
+	width: 740px;
+	height: 562px;
+	display: block;
+}
+
+.oculto{
+	display: none;
+}
+
+.b1{
+	position: absolute;
+	margin-top: 12.9%;
+	width: 500px;
+	height: 200px;
+	background:url(fondob1.jpg);
+}
+
+.b2{
+	position: absolute;
+	margin-top: 28%;
+	width: 500px;
+	height: 190px;
+	background:url(fondob2.jpg);
+}
+
+.botonsuma{
+	display: none;
+} 
+
+.alo{
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 50%;
+	width: 500px;
+	height: 200px;
+	background:url(bsuma.png);
+	display: block;
+}
+
+
+.botonresta{
+	display: none;
+} 
+
+.ola{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 50%;
+	width: 500px;
+	height: 200px;
+	background:url(bresta.png);
+	display: block;
+}
+.b1{
+	position: absolute;
+	margin-top: 12.9%;
+	width: 500px;
+	height: 200px;
+	background:url(fondob1.jpg);
+}
+
+
+.suma{
+	display: none;
+}
+.resta{
+	
+	display: none;
+}
+
+.solucion{
+	display: none;
+}
+.restaa{
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 40%;
+	width: 740px;
+	height: 562px;
+	display: block;
+	background: url("resta.png");
+}
+.sumaa{
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 40%;
+	width: 740px;
+	height: 562px;
+	display: block;
+	background: url("suma.png");
+}
+
+.solucionn{
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 40%;
+	width: 740px;
+	height: 562px;
+	display: block;
+	background: url("solucion.png");
+}
+
+.x{
+	display: none;
+}
+
+.xx{
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 83%;
+	width: 200px;
+	height: 100px;
+	display: block;
+	background: url("x.png");
+	
+}
+
+#n1{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: -37.3%;
+	width: 14.5%;
+	height: 16%;
+	font-size: 350%;
+	text-align: center;
+}
+
+#n2{
+	position: absolute;
+	margin-top: 19.8%;
+	margin-left: -6.5%;
+	width: 14.5%;
+	height: 16%;
+	font-size: 350%;
+	text-align: center;
+}
+
+#n3{
+	position: absolute;
+	margin-top: 19.5%;
+	margin-left: 22.1%;
+	width: 14.5%;
+	height: 16%;
+	font-size: 350%;
+	text-align: center;
+}
+
+#botons{
+	position: absolute;
+	margin-top: 62.5%;
+	margin-left: 35.2%;
+	width: 32.5%;
+	height: 10.5%;
+	
+}
+
+.resultado{
+	position: absolute;
+	margin-top: 48%;
+	margin-left: 38%;
+	width: 25%;
+	height: 10.5%;
+	font-size: 250%;
+	text-align: center;
+}

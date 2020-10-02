@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entrega Semana 32</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body><center>
+<div class="cuadro">
+	<img src="inicio.jpg" id="imagen" class="imagen">
+	<img src="logo.jpg" id="logo" class="logo" onclick="mostrar();">
+	<div onclick="definir();" id="b1" class="b1"></div>
+		<div onclick="definirsuma();" id="botonsuma" class="botonsuma"></div>
+		<div onclick="definirresta();" id="botonresta" class="botonresta"></div>
+		<div id="suma" class="suma">
+			
+		</div>
+		<div id="resta" class="resta">
+			
+		</div>
+		<div id="solucion" class="solucion">
+			<input type="number" name="n1" id="n1" value="">
+			<input type="number" name="n2" id="n2" value="">
+			<input type="number" name="n3" id="n3" value="">
+			<div id="resultado" class="resultado"></div>
+			<div name="botons" id="botons" onclick="resultar();"></div>
+			
+		</div>
+	<div onclick="solucionar();" id="b2" class="b2"></div>
+	<img id="x" class="x" src="x.png" onclick="cerrar();">
+</div>
+<script src="funciones.js"></script>
+</center>
+</body>
+</html>
+
